@@ -99,11 +99,11 @@ body a:hover{
     padding: 0;
 }
 .pro-pic {
-    width: 27%;
+    width: 22%;
 }
 .pro-pic img {
     border: 2px solid #10A7AF;
-    padding: 12px;
+    padding: 8px;
     background: #fff;
 }
 
@@ -280,8 +280,6 @@ border-bottom: none;
     font-size: 13px;
 }
 a.accordion-section-title span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
     margin: 0 9px 14px 0;
     color: #929292;
 }
