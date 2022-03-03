@@ -1,2 +1,73 @@
 <?php
-echo [{"name":"\u0646\u06cc\u062a\u0631\u0648\u06af\u0644\u06cc\u0633\u06cc\u0631\u06cc\u0646 2.6","day":"1","night":"1"},{"name":"\u0646\u06cc\u06a9\u0648\u0631\u0627\u0646\u062f\u06cc\u0644 10","day":"1","night":"1"},{"name":"\u0641\u0627\u0645\u0648\u062a\u06cc\u062f\u06cc\u0646 40","day":"0","night":"1"},{"name":"\u0622\u0644\u0648\u067e\u0648\u0631\u06cc\u0646\u0648\u0644 100","day":"0","night":"1"},{"name":"\u0648\u06cc\u062a\u0627\u0645\u06cc\u0646 \u06281 300","day":"1","night":"0"},{"name":"\u0622\u062a\u0648\u0631\u0648\u0627\u0633\u062a\u0627\u062a\u06cc\u0646 20","day":"0","night":"1"},{"name":"\u0622\u0633\u067e\u06cc\u0631\u06cc\u0646 80","day":"1","night":"0"},{"name":"\u0644\u0648\u0632\u0627\u0631\u062a\u0627\u0646 25","day":"0.5","night":"0"},{"name":"\u0641\u0648\u0631\u0648\u0632\u0645\u0627\u06cc\u062f 40","day":"0.5F","night":"0"},{"name":"\u06a9\u0627\u0631\u0648\u062f\u06cc\u0644\u0648\u0644 6.25","day":"0.5","night":"0.5"},{"name":"\u0645\u0648\u0644\u062a\u06cc \u062f\u06cc\u0644\u06cc","day":"1","night":"0"}];
+
+$output = array();
+
+$record = array();
+$record['name'] = "نیتروگلیسیرین 2.6";
+$record['day'] = "1";
+$record['night'] = "1";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "نیکوراندیل 10";
+$record['day'] = "1";
+$record['night'] = "1";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "فاموتیدین 40";
+$record['day'] = "0";
+$record['night'] = "1";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "آلوپورینول 100";
+$record['day'] = "0";
+$record['night'] = "1";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "ویتامین ب1 300";
+$record['day'] = "1";
+$record['night'] = "0";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "آتورواستاتین 20";
+$record['day'] = "0";
+$record['night'] = "1";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "آسپیرین 80";
+$record['day'] = "1";
+$record['night'] = "0";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "لوزارتان 25";
+$record['day'] = "0.5";
+$record['night'] = "0";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "فوروزماید 40";
+$record['day'] = "0.5F";
+$record['night'] = "0";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "کارودیلول 6.25";
+$record['day'] = "0.5";
+$record['night'] = "0.5";
+$output[] = $record;
+
+$record = array();
+$record['name'] = "مولتی دیلی";
+$record['day'] = "1";
+$record['night'] = "0";
+$output[] = $record;
+
+echo json_encode($output);
+
+?>
